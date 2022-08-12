@@ -29,7 +29,7 @@ html{
 
 #Hoax{
     font-family: 'Montserrat', sans-serif;
-    background-color:  #023e8a;
+    background-color:  rgb(70, 29, 218);;
     color: white;
     border-radius: 5px;
     font-size: 1rem;
@@ -39,19 +39,7 @@ html{
     box-shadow: 0px 2px 20px rgba(56, 30, 173, 0.3);
     transition: 0.2s;
     cursor: pointer;
-    background-color: #174786;
-}
-
-@media (min-width: 992px) {
-    nav a{
-        margin: 0 90px;
-    }
-    nav .navbar-nav{
-        margin-left:180px;
-    }
-    nav .nav-item{
-        padding: 0 15px;
-    }
+    background-color: rgb(58, 25, 178);
 }
 
 .c-izq h2{
@@ -69,12 +57,6 @@ html{
     line-height: 1.5rem;
 }
 
-.etiq{
-    width: 400px;
-    font-size: 1.4rem;
-    display: flex;
-}
-
 .shield, .star{
     color: #1f3e72;
     display: grid;
@@ -85,119 +67,157 @@ html{
     gap: 15px;
 }
 
-
-/* .schedule{
-    font-family: 'Poppins', sans-serif;
-    color: #1f3e72;
-    position: absolute;
-    align-items: center;
-    padding-left: 0rem;
-    margin-top: -23rem;
-    margin-left: 7rem ;
-    display: grid;
-    grid-template-columns: 20px 300px;
-    gap: 15px;
-
-} */
-
-/* .cl{
-    border-radius: 0.2rem;
-    box-shadow: 0px 3px 10px #b3cefd;
-}
-.clock{
-    font-size: 20px;
-    font-weight: 500;
-} */
-
-.banner{
-    font-family: 'Poppins', sans-serif;
-    background-color: rgba(255, 255, 255, 0.9);
-    width: 90%;
-    height: 150px;
-    position: absolute;
+.etiq{
+    width: 400px;
+    font-size: 1.4rem;
     display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-    padding: 1rem;
-    box-shadow: 0px 2px 8px rgba(68, 106, 233, 0.3);
-    border-radius: 1rem;
-    margin-left: 3rem;
-    margin-top: -19rem;
-    padding: 10px 40px 10px 30px ;
 }
 
-.banner:hover {
-    transform: scale(1.01,1.01);
-    box-shadow: 0px 10px 40px rgb(3 19 23 / 25%);
-    transition: 0.3s;
+#fond{
+    background-image: url(assets/ffond2.png)
 }
 
-.loc, .dat, .typ{
-    margin-top: 16px;
-    border-radius: 0.3rem;
-    box-shadow: 0px 3px 10px #b3cefd;
-}
-
-.loca, .date, .type{
-    font-size: 18px;
-    color: #69758b;
-    margin-right: 20px;
-}
-
-.jak, .jul, .mod{
-    font-size: 20px;
-    margin-top: -7px;
-    margin-left: 10px;
-    color: #1f3e72;
-    margin-right: 20px;
-}
-
-.bansub{
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(70, 29, 218);
-    box-shadow: 0px 0px 5px rgba(24, 1, 104, 0.842);
-    color: white;
-    width: 130px;
-    height: 47px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    margin-left: 15px;
-    margin-top: 28px;
-}
-
-.bansub:hover{
-    transform: scale(1.05,1.05);
-    box-shadow: 0px 2px 8px rgba(0,0, 0, 0.3);
-    transition: 0.3s;
-    cursor: pointer;
-}
 .typesof{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 .why{
-    padding-left: 7.4rem;
+    background-image: url(assets/ffond2.png)
 }
 
 .why h2{
     font-family: 'Montserrat', sans-serif;
     color: #1f3e72;
-    text-transform: initial;
     font-size: 2.5rem;
     font-weight: 700;
-    width: 80%;
     text-align: left;
 }
 
 .why p{
     color: #69758b;
-    width: 40%;
     line-height: 30px
 }
+
+
+
+@media (min-width: 992px) {
+    nav a{
+        margin: 0 90px;
+    }
+    nav .navbar-nav{
+        margin-left:180px;
+    }
+    nav .nav-item{
+        padding: 0 15px;
+    }
+    #banner{
+        font-family: 'Poppins', sans-serif;
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 70%;
+        height: 90px;
+        position: absolute;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        box-shadow: 0px 2px 8px rgba(68, 106, 233, 0.3);
+        border-radius: 1rem;
+        margin-left: 8rem;
+        margin-top: -14rem;
+    }
+    #banner:hover {
+        transform: scale(1.01,1.01);
+        box-shadow: 0px 10px 40px rgb(3 19 23 / 25%);
+        transition: 0.3s;
+    }
+    .loca, .date, .type{
+        font-size: 1rem;
+        color: #69758b;
+        margin-right: 20px;
+    }
+    
+    .jak, .jul, .mod{
+        font-size: 1.3rem;
+        margin-top: -10px;
+        margin-left: 10px;
+        color: #1f3e72;
+        margin-right: 20px;
+    }
+    .bansub{
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(70, 29, 218);
+        box-shadow: 0px 0px 5px rgba(24, 1, 104, 0.842);
+        color: white;
+        width: 130px;
+        height: 47px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        /* margin-left: 15px;
+        margin-top: 28px; */
+    }
+    
+    .bansub:hover{
+        transform: scale(1.05,1.05);
+        box-shadow: 0px 2px 8px rgba(0,0, 0, 0.3);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 991px){
+    #banner{
+        width: 90%;
+        margin: 0 120px;
+        background-image: url(assets/ffond2.png)
+    }
+
+    .loca, .date, .type{
+        font-size: 1.3rem;
+        color: #69758b;
+        margin-right: 20px;
+    }
+    
+    .jak, .jul, .mod{
+        font-size: 1.5rem;
+        margin-top: -7px;
+        margin-left: 10px;
+        color: #1f3e72;
+        margin-right: 20px;
+    }
+    .bansub{
+        font-family: 'Montserrat', sans-serif;
+        background-color: rgb(70, 29, 218);
+        font-size: 1.4rem;
+        box-shadow: 0px 0px 5px rgba(24, 1, 104, 0.842);
+        color: white;
+        width: 140px;
+        height: 47px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        margin-left: 20px;
+        
+    }
+    
+    .bansub:hover{
+        transform: scale(1.05,1.05);
+        box-shadow: 0px 2px 8px rgba(0,0, 0, 0.3);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+
 
 .topping{
     margin-top: 50px;
@@ -205,7 +225,7 @@ html{
     display: flex; 
     flex-flow: row;
     width: 65rem;
-    height: 300px;
+    height: 280px;
     justify-content: space-between;
 }
 
