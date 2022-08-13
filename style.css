@@ -290,7 +290,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        padding-left: 50px;
+        padding-left: 40px;
     }
     .thov{
         background-color: rgba(255, 255, 255, 0.247);
@@ -557,6 +557,9 @@ footer div a{
 }
 
 
+.sdea{
+    padding-left: 40px;
+}
 
 .dour {
     font-size: 13px;
