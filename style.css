@@ -204,10 +204,11 @@ body{
         border-radius: 8px;
     }
     .our{
-        width: 40%;
-        font-size: 13px;
+        width: 60%;
+        text-align: center;
+        font-size: 20px;
         color: #69758b;
-        line-height: 20px;
+        line-height: 30px;
     }
 }
 
@@ -318,11 +319,6 @@ body{
         padding-left: 115px;
     }
     .our{
-        width: 65%;
-        text-align: start;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         text-align: center;
         font-size: 13px;
         color: #69758b;
@@ -543,12 +539,7 @@ footer div a{
 .vacin{
     padding-left: 6rem;
 }
-.vacun{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    color: rgb(0, 88, 189);
-    margin-left: -25px;
-}
+
 
 .f-der{
     font-family: 'Montserrat', sans-serif;
@@ -556,10 +547,6 @@ footer div a{
     color: #1f3e72;
 }
 
-
-.sdea{
-    padding-left: 40px;
-}
 
 .dour {
     font-size: 13px;
@@ -604,6 +591,19 @@ footer div a{
     font-size: 1.6rem;
 }
 
+
+
+
+.vacun{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: rgb(0, 88, 189);
+}
+
 .as{
-    padding-left: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
 }
