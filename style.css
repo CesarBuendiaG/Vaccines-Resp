@@ -3,7 +3,6 @@
 }
 html{
     cursor: default;
-    margin: 0;
 }
 
 body{
@@ -77,18 +76,9 @@ body{
     display: flex;
 }
 
-/* #fond{
-    background-image: url(assets/ffond2.png)
-} */
-
 .typesof{
     padding-left: 80px;
 }
-
-
-/* .why{
-    background-image: url(assets/ffond2.png)
-} */
 
 .why h2{
     font-family: 'Montserrat', sans-serif;
@@ -102,8 +92,6 @@ body{
     color: #69758b;
     line-height: 30px
 }
-
-
 
 @media (min-width: 992px) {
     nav a{
@@ -302,7 +290,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-content: center;
-        padding-left: 28px;
+        padding-left: 50px;
     }
     .thov{
         background-color: rgba(255, 255, 255, 0.247);
@@ -530,7 +518,6 @@ body{
     transition: .3s;
 }
 
-/* -------------------------------------------------------------------- */
 
 .footer{
 
