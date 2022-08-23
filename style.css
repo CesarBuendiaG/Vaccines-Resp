@@ -22,14 +22,12 @@ body{
 .nav-item{
     font-weight: 600;
 }
-
 .nav-item:hover{
     cursor: pointer;
     color: #1f3e72;
     transform: scale(1.02,1.02);
     transition: .3s;
 }
-
 #Hoax{
     font-family: 'Montserrat', sans-serif;
     background-color:  rgb(70, 29, 218);;
@@ -37,14 +35,12 @@ body{
     border-radius: 5px;
     font-size: 1rem;
 }
-
 #Hoax:hover{
     box-shadow: 0px 2px 20px rgba(56, 30, 173, 0.3);
     transition: 0.2s;
     cursor: pointer;
     background-color: rgb(58, 25, 178);
 }
-
 .c-izq h2{
     font-family: 'Montserrat', sans-serif;
     color: #1f3e72;
@@ -52,14 +48,12 @@ body{
     font-size: 3.5rem;
     font-weight: 700;
 }
-
 .cit{
     color: rgb(136, 136, 136);
     width: 390px;
     font-size: 1rem;
     line-height: 1.5rem;
 }
-
 .shield, .star{
     color: #1f3e72;
     display: grid;
@@ -69,17 +63,14 @@ body{
     font-size: 15px;
     gap: 15px;
 }
-
 .etiq{
     width: 400px;
     font-size: 1.4rem;
     display: flex;
 }
-
 .typesof{
     padding-left: 80px;
 }
-
 .why h2{
     font-family: 'Montserrat', sans-serif;
     color: #1f3e72;
@@ -87,7 +78,6 @@ body{
     font-weight: 700;
     text-align: left;
 }
-
 .why p{
     color: #69758b;
     line-height: 30px
@@ -331,25 +321,21 @@ body{
     box-shadow: 0px 2px 8px rgba(68, 106, 233, 0.3);
     transition: 0.2s;
 }
-
 .minimize, .forming, .protect, .creati{
     box-shadow: 0px 10px 50px rgba(68, 106, 233, 0.1);
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
 }
-
 .topti{
     color: #1f3e72;
     font-size: 20px;
     
 }
-
 .topp{
     color: #69758b;
     font-size: 12px;
 }
-
 .prepa {
     font-family: 'Montserrat', sans-serif;
     color: #1f3e72;
@@ -359,35 +345,27 @@ body{
     width: 100%;
     text-align: left;
 }
-
 .succ {
     margin-bottom: 0;
     color: #69758b;
     width: 78%;
     line-height: 25px
 }
-
-
 .simg{
     border-radius: 0.3rem;
     box-shadow: 0px 3px 10px #b3cefd;
 }
-
 .acordeon p{
     width: 220px;
     text-align: left;
     font-size: 15px;
     padding-top: 15px;
 }
-
-
 .acco{
     margin-left: 30px;
     margin-top: 30px;
     width: 250px;
 }
-
-
 .collapsible {
     margin-top: 0px;
     color: #1f3e72;
@@ -405,11 +383,9 @@ body{
     margin-left: -50px;
     box-shadow: 0px 10px 50px rgba(68, 106, 233, 0.1);
 }
-
 .active, .collapsible:hover {
     cursor: pointer;
 }
-  
 .collapsible:after {
     content: '\002B';
     color: #1f3e72;
@@ -417,12 +393,10 @@ body{
     float: right;
     margin-left: 5px;
 }
-  
 .active:after {
     content: "\2212";
     color: #1f3e72;
 }
-  
 .content {
     margin-top: 10px;
     margin-left: -40px;
@@ -437,21 +411,17 @@ body{
     border-radius: 5px;
     color: #69758b;
 }
-
 .content p{
     padding: 0px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 5px;
 }
-
-
 .swhy{
     padding-left: 7.4rem;
     margin-top: 7rem;
     background-image: url(assets/ffond2.png);
 }
-
 .swhy h2{
     font-family: 'Montserrat', sans-serif;
     color: #1f3e72;
@@ -461,14 +431,12 @@ body{
     width: 80%;
     text-align: left;
 }
-
 .swhy p{
     color: #69758b;
     width: 40%;
     line-height: 30px;
     margin-bottom: 0;
 }
-
 .tercer{
     margin-top: 0px;
     position: relative;
@@ -476,28 +444,24 @@ body{
     grid-template-columns: 1.3fr 1fr;
     grid-template-rows: 38rem;
 }
-
 .thov:hover{
     transform: scale(1.05,1.05);
     box-shadow: 0px 2px 8px rgba(68, 106, 233, 0.3);
     /* padding-top: 0; */
     transition: 0.2s;
 }
-
 .tertop{
     display: flex;
     gap: 1rem;
     align-items: flex-start;
     height: 80px;
 }
-
 .tt{
     color: #1f3e72;
     margin-bottom: 0px;
     font-size: 20px;
     margin-top: 10px;
 }
-
 .ts{
     margin-top: 15px;
     color: #69758b;
@@ -505,7 +469,6 @@ body{
     margin-left: -20px;
     margin-bottom: 0px;
 }
-
 .now:hover{
     cursor: pointer;
     box-shadow: 0px 0px 5px rgba(100, 92, 131, 0.842);
@@ -513,8 +476,6 @@ body{
     color: white;
     transition: .3s;
 }
-
-
 .footer{
 
     background-color: #ccdfff81;
@@ -523,7 +484,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-
 footer div a{
     color: #283618;
     font-weight: 100;
@@ -535,24 +495,18 @@ footer div a{
     display: grid;
     grid-template-columns: 4fr 1fr 1fr 1fr;
 }
-
 .vacin{
     padding-left: 6rem;
 }
-
-
 .f-der{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: #1f3e72;
 }
-
-
 .dour {
     font-size: 13px;
     color: #69758b;
 }
-
 .dour:hover{
     cursor: pointer;
     color: #1f3e72;
@@ -568,7 +522,6 @@ footer div a{
     margin-top: 40px;
     margin-bottom: 10px;
 }
-
 .back{
     font-size: 20px;
     color: #1f3e72;
@@ -578,28 +531,20 @@ footer div a{
     color: #9547df;
     transition: .02s;
 }
-
 .fdour {
     font-size: 13px;
     color: #69758b;
 }
-
-
 .ff{
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 88, 189);
     font-size: 1.6rem;
 }
-
-
-
-
 .vacun{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     color: rgb(0, 88, 189);
 }
-
 .as{
     display: flex;
     flex-direction: column;
@@ -607,7 +552,6 @@ footer div a{
     align-items: center;
     padding: 0;
 }
-
 .sdea{
     padding-left: 35px;
 }
